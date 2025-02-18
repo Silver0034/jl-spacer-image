@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/jl-spacer-image",
+	"version": "0.1.0",
+	"title": "Spacer Image",
+	"category": "design",
+	"icon": "align-wide",
+	"description": "A spacer block with a background image.",
+	"example": {},
+	"attributes": {
+		"height": {
+			"type": "string",
+			"default": "100px"
+		},
+		"width": {
+			"type": "string"
+		},
+		"backgroundImageURL": {
+			"type": "string",
+			"default": ""
+		},
+		"backgroundSize": {
+			"type": "string",
+			"default": "cover"
+		},
+		"backgroundRepeating": {
+			"type": "boolean",
+			"default": false
+		},
+		"focalPoint": {
+			"type": "object",
+			"default": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"spacing": {
+			"margin": ["top", "bottom"],
+			"__experimentalDefaultControls": {
+				"margin": true
+			}
+		}
+	},
+	"textdomain": "jl-spacer-image",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
