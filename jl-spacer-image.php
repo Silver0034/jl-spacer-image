@@ -7,6 +7,8 @@
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Jacob Lodes
+ * Author URI:        https://jlodes.com/
+ * Plugin URI:        https://github.com/Silver0034/jl-spacer-image
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       jl-spacer-image
